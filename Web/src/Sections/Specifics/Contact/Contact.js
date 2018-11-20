@@ -1,22 +1,16 @@
 import React from 'react';
 
-const styleText={
-    color: "white"
-};
-
 const styleContainer = {
     gridColumnStart:'2',
     gridRowStart: '3'
 };
 
-
-
-const store = () => {
+const contact = () =>   {
     return (
         <div style={styleContainer}>
-            <p style={styleText}>hola k ase</p>
+            <p> Contact</p>
         </div>
     )
-};
+}
 
-export default store
+export default contact;

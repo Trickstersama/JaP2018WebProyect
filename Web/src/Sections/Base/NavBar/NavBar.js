@@ -12,13 +12,13 @@ const navBar = (props) => {
         <div className="sidenav">
             <BarLogo pageName='Red Tree Games'/>
             <BarInput/>
-            <SideBarButton name='Store' sepBar='1'/>
+            <SideBarButton name='Store' sepBar='1' buttonHandler={props.buttonHandler}/>
             <br/>
-            <SideBarButton name='Browse Games'sepBar='1'/>
+            <SideBarButton name='Browse Games'sepBar='1' buttonHandler={props.buttonHandler}/>
             <br/>
-            <SideBarButton name='Create Account'sepBar='1'/>
+            <SideBarButton name='Create Account'sepBar='1' buttonHandler={props.buttonHandler}/>
             <br/>
-            <SideBarButton name='Contact'sepBar='0'/>
+            <SideBarButton name='Contact'sepBar='0' buttonHandler={props.buttonHandler}/>
         </div>
     )
     };

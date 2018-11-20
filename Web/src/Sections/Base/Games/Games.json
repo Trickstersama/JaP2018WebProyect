@@ -1,0 +1,90 @@
+[
+    {
+      "id": 101,
+      "Title": "Fallout 4",
+      "Developer": "Bethesda Game Studios",
+      "Release Date": "10 Nov, 2015",
+      "Rating": 8,
+      "Tags":["Open World","Post-Apocaliptic", "RPG", "Singleplayer", "Survival"]
+    },
+     {
+      "id": 102,
+      "Title": "Darkwood",
+      "Developer": "Acid Wizard Studios",
+      "Release Date": "17 Aug, 2017",
+      "Rating": 10,
+      "Tags": ["Indie","Post-Apocaliptic", "Horror", "Singleplayer", "Survival"]
+    },
+     {
+      "id": 103,
+      "Title": "Warframe",
+      "Developer": "Digital Extremes",
+      "Release Date": "25 Mar, 2013",
+      "Rating": 9,
+      "Tags": ["Free To Play","Action", "Multiplayer", "Co-op", "Shooter"]
+    },
+    {
+      "id": 104,
+      "Title": "Path of Exile",
+      "Developer": "Grinding Gear Games",
+      "Release Date": "23 Oct, 2013",
+      "Rating": 10,
+      "Tags": ["Free To Play","Action", "Multiplayer", "Co-op", "RPG", "Indie"]
+    },
+    {
+      "id": 105,
+      "Title": "Dota 2",
+      "Developer": "Valve",
+      "Release Date": "9 Jul, 2013",
+      "Rating": 6,
+      "Tags": ["Free To Play","MOBA", "Multiplayer", "Strategy", "Action", "Team-Based"]
+    },
+    {
+      "id": 106,
+      "Title": "Terraria",
+      "Developer": "Re-Logic",
+      "Release Date": "16 May, 2011",
+      "Rating": 9,
+      "Tags": ["Sandbox","Adventure", "Multiplayer", "2D", "Action", "Indie"]
+    },
+    {
+      "id": 107,
+      "Title": "Feel The Snow",
+      "Developer": "Owlet",
+      "Release Date": "14 Oct, 2016",
+      "Rating": 8,
+      "Tags": ["Sandbox","Adventure", "Multiplayer", "2D", "Cute", "Indie"]
+    },
+    {
+      "id": 108,
+      "Title": "Fallout 3",
+      "Developer": "Bethesda",
+      "Release Date": "13 Oct, 2009",
+      "Rating": 9,
+      "Tags": ["Open-World","Adventure", "RPG", "Singleplayer", "FPS", "Post-Apocaliptic"]
+    },
+    {
+      "id": 109,
+      "Title": "Paladins",
+      "Developer": "Evil Mojo Games",
+      "Release Date": "8 May, 2018",
+      "Rating": 7,
+      "Tags": ["Free to play","Multiplayer", "FPS", "Team-Based", "Action"]
+    },
+    {
+      "id": 110,
+      "Title": "The forest",
+      "Developer": "Endnight Games Ltd",
+      "Release Date": "30 Apr, 2018",
+      "Rating": 9,
+      "Tags": ["Survival","Multiplayer", "Horror", "Open-World", "Building"]
+    },
+    {
+      "id": 111,
+      "Title": "Stardew Valley",
+      "Developer": "ConcernedApe",
+      "Release Date": "26 Feb, 2016",
+      "Rating": 10,
+      "Tags": ["RPG","Multiplayer", "Simulation", "Agriculture", "Building"]
+    }
+]

@@ -1,12 +1,17 @@
+@font-face  {
+  font-family: 'myfont';
+  src: './Sections/Fonts/fontin-regular-webfont.woff';
+}
+
 .App {
   margin: 16px;
-
+  font-family: myfont;
 }
 
 /* utilidad general  */
 body  {
 
-  background-color:#151516; /*almost Black */
+  background-color:black; /*almost Black */
 }
 .glow   {
   text-shadow: 0 0 3px #FF0000;
@@ -31,4 +36,13 @@ body  {
 
 #specificContentSection {
   margin-left:  200px;
+}
+
+.inputForm input  {
+  margin-left: 15px;
+}
+
+
+#submitButton {
+  display: flex;
 }
