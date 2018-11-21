@@ -8,6 +8,7 @@ import CreateAccount from './Sections/Specifics/CreateAccount/CreateAccount';
 import Contact from './Sections/Specifics/Contact/Contact';
 import BrowseGames from './Sections/Specifics/BrowseGames/BrowseGames';
 import GameDescription from './Sections/Specifics/Store/StoreComponents/GameDescription/GameDescription'
+import ShippingCart from './Sections/Specifics/ShippingCart/ShippingCart'
 
 
 
@@ -15,6 +16,8 @@ class App extends Component {
   constructor() {
     super(...arguments)
     this.numGame = 222;
+/*     this.priceActualGame = 0;
+    this.nameActualGame = ''; */
   }
   state = {
 /*     pageValues:  {
@@ -26,6 +29,8 @@ class App extends Component {
     }, */
     actualSection: 'Store',
     idGame: 0,
+    nameActualGame: '',
+    priceActualGame: 0,
   }
 
   styleGrid = {
@@ -38,6 +43,19 @@ class App extends Component {
 
   }
 
+  clickAndBuyIt = (event, price, gameName) => {
+    const name = 'Your Shopping Cart';
+
+    console.log(gameName + 'ola');
+    this.setState({
+      actualSection: name,
+      nameActualGame: gameName,
+      priceActualGame :price
+      });
+       
+ 
+  }
+
   clickNavButtonHandler = (event) => {
     const name = event.target.name;
     this.setState({actualSection: name});
@@ -47,7 +65,6 @@ class App extends Component {
   clickInfoGame = (event, id) =>  {
     const name = 'gameInfo';
     this.numGame = id;
-    console.log(id + 'ola');
     this.setState({
       actualSection: name,
       idGame: id
@@ -62,6 +79,7 @@ class App extends Component {
     let showCreateAccount = null;
     let showContact = null;
     let showBrowseGames = null;
+    let showShoppingCart = null;
 
     if(this.state.actualSection === 'Store')  {
       showStore = <Store showInfoGame={this.clickInfoGame}/>;
@@ -75,7 +93,11 @@ class App extends Component {
           if (this.state.actualSection === 'Create Account')  {
             showCreateAccount = <CreateAccount/>;
           } else {
-            gameDescription = <GameDescription id={this.state.idGame}/>
+            if (this.state.actualSection === 'Your Shopping Cart')  {
+              console.log(this.state.nameActualGame);
+              showShoppingCart= <ShippingCart price={this.state.priceActualGame} gamename={this.state.nameActualGame}/>;
+            } else
+              gameDescription = <GameDescription id={this.state.idGame} buyit={this.clickAndBuyIt}/>
           }
         }
       }
@@ -94,6 +116,7 @@ class App extends Component {
           {showBrowseGames}
           {showContact}
           {gameDescription}
+          {showShoppingCart}
         </div>
 
         <div id='FooterSection'>

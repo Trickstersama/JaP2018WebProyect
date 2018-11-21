@@ -27,7 +27,7 @@
       "Rating": 9,
       "Price": 0,
       "Tags": ["Free To Play","Action", "Multiplayer", "Co-op", "Shooter"],
-      "Description": ""
+      "Description": "Warframe is a cooperative free-to-play third person online action game set in an evolving sci-fi world."
     },
     {
       "id": 4,
@@ -37,7 +37,7 @@
       "Rating": 10,
       "Price": 0,
       "Tags": ["Free To Play","Action", "Multiplayer", "Co-op", "RPG", "Indie"],
-      "Description": ""
+      "Description": "You are an Exile, struggling to survive on the dark continent of Wraeclast, as you fight to earn power that will allow you to exact your revenge against those who wronged you. Created by hardcore gamers, Path of Exile is an online Action RPG set in a dark fantasy world."
     },
     {
       "id": 5,
@@ -47,7 +47,7 @@
       "Rating": 6,
       "Price": 0,
       "Tags": ["Free To Play","MOBA", "Multiplayer", "Strategy", "Action", "Team-Based"],
-      "Description": ""
+      "Description": "Every day, millions of players worldwide enter battle as one of over a hundred Dota heroes. And no matter if it's their 10th hour of play or 1,000th, there's always something new to discover. With regular updates that ensure a constant evolution of gameplay, features, and heroes, Dota 2 has taken on a life of its own"
     },
     {
       "id": 6,
@@ -57,7 +57,7 @@
       "Rating": 9,
       "Price": 20,
       "Tags": ["Sandbox","Adventure", "Multiplayer", "2D", "Action", "Indie"],
-      "Description": ""
+      "Description": "Dig, fight, explore, build! Nothing is impossible in this action-packed adventure game. Four Pack also available!"
     },
     {
       "id": 7,
@@ -67,7 +67,7 @@
       "Rating": 8,
       "Price": 15,
       "Tags": ["Sandbox","Adventure", "Multiplayer", "2D", "Cute", "Indie"],
-      "Description": ""
+      "Description": "Choose one of the characters and start your journey. The game has many interesting things in store: building, crafting, puzzles, bosses, mystery, laughs, quests etc."
     },
     {
       "id": 8,
@@ -77,7 +77,7 @@
       "Rating": 9,
       "Price": 15,
       "Tags": ["Open-World","Adventure", "RPG", "Singleplayer", "FPS", "Post-Apocaliptic"],
-      "Description": ""
+      "Description": "Prepare for the Future™ With Fallout 3: Game of the Year Edition, experience the most acclaimed game of 2008 like never before. Create a character of your choosing and descend into an awe-inspiring, post-apocalyptic world where every minute is a fight for survival."
     },
     {
       "id": 9,
@@ -87,7 +87,7 @@
       "Rating": 7,
       "Price": 0,
       "Tags": ["Free to play","Multiplayer", "FPS", "Team-Based", "Action"],
-      "Description": ""
+      "Description": "Join 25+ million players in Paladins, the free-to-play fantasy team-based shooter sensation. Wield guns and magic as a legendary Champion of the Realm, customizing your core set of abilities to play exactly how you want to play."
     },
     {
       "id": 10,
@@ -97,7 +97,7 @@
       "Rating": 9,
       "Price": 20,
       "Tags": ["Survival","Multiplayer", "Horror", "Open-World", "Building"],
-      "Description": ""
+      "Description": "As the lone survivor of a passenger jet crash, you find yourself in a mysterious forest battling to stay alive against a society of cannibalistic mutants. Build, explore, survive in this terrifying first person survival horror simulator."
     },
     {
       "id": 11,
@@ -107,6 +107,6 @@
       "Rating": 10,
       "Price": 20,
       "Tags": ["RPG","Multiplayer", "Simulation", "Agriculture", "Building"],
-      "Description": ""
+      "Description": "You've inherited your grandfather's old farm plot in Stardew Valley. Armed with hand-me-down tools and a few coins, you set out to begin your new life. Can you learn to live off the land and turn these overgrown fields into a thriving home?"
     }
 ]

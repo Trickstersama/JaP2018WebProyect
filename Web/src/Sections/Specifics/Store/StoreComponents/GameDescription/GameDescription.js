@@ -25,15 +25,15 @@ const gameDescription = (props) =>   {
     console.log(props.id)
     return(
         <div style={styleContainer}>
-            <DescriptionBoxes id={props.id} text={'asd'} row={2} column={2}/>
-            <DescriptionBoxes id={props.id} text={'asd'} row={2} column={3}/>
+            <DescriptionBoxes id={props.id} idDisplay={1} row={2} column={2}/>
+            <DescriptionBoxes buyit={props.buyit} id={props.id} idDisplay={2} row={2} column={3}/>
             <div  style={styleGrid}>
                 <GameDescriptionSlider id={props.id}/>
             </div>
-            <DescriptionBoxes id={props.id} text={'asd'} row={4} column={2}/>
-            <DescriptionBoxes id={props.id} text={'asd'} row={4} column={3}/>
-            <DescriptionBoxes id={props.id} text={'asd'} row={5} column={2}/>
-            <DescriptionBoxes id={props.id} text={'asd'} row={5} column={3}/>
+            <DescriptionBoxes id={props.id} idDisplay={3} row={4} column={2}/>
+            <DescriptionBoxes id={props.id} idDisplay={4} row={4} column={3}/>
+            <DescriptionBoxes id={props.id} idDisplay={5} row={5} column={2}/>
+            <DescriptionBoxes id={props.id} idDisplay={6} row={5} column={3}/>
  
         </div>
     )
