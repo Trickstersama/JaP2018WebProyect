@@ -47,15 +47,15 @@ const createAccount = () =>   {
           <div style={styleInsideForm}>
               <h2 style= {styleH2}>Send a message to the Dev Team</h2>
               <label htmlFor="mail">E-Mail</label>
-              <input type="email" name="correo" value="" placeholder="example@mail" required/>
+              <input type="email" name="correo" placeholder="example@mail" required/>
               <br/>
               <br/>
-              <label htmlFor="nombre">Name</label>
-              <input type="text" name="nombre" value=""/>
+              <label htmlFor="name">Name</label>
+              <input type="text" name="name"/>
               <br/>
               <br/>
               <p style={stylePMessage}> Message</p>
-              <textarea name="criticaconstructiva" rows="8" cols="80" required></textarea>
+              <textarea name="MainMessage" rows="8" cols="80" required></textarea>
               <br/>
               <br/>
               <div id='submitButton'>
