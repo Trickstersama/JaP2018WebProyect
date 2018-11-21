@@ -31,6 +31,10 @@ class App extends Component {
     idGame: 0,
     nameActualGame: '',
     priceActualGame: 0,
+    radioValue: "Common",
+    radioValuePercent: 0.5,
+    copiesAmount: 1,
+    actualTotal: 0, 
   }
 
   styleGrid = {
@@ -43,18 +47,35 @@ class App extends Component {
 
   }
 
+  
+
   clickAndBuyIt = (event, price, gameName) => {
     const name = 'Your Shopping Cart';
-
-    console.log(gameName + 'ola');
     this.setState({
       actualSection: name,
       nameActualGame: gameName,
-      priceActualGame :price
+      priceActualGame : price
       });
-       
- 
   }
+
+  onRadioChange = (event, value, percent) =>  {
+    const radVal = value;
+    this.setState({
+      radioValuePercent: percent,
+      radioValue: radVal,
+      actualTotal: this.state.priceActualGame * this.state.copiesAmount * ((this.state.radioValuePercent/100) + 1)
+    })
+    console.log(this.state.actualTotal)
+  }
+
+  updateAmout = (event) => {
+    this.setState({
+      copiesAmount: event.target.value,
+      actualTotal: this.state.priceActualGame * event.target.value * ((this.state.radioValuePercent/100) + 1)
+    });
+
+}
+
 
   clickNavButtonHandler = (event) => {
     const name = event.target.name;
@@ -94,10 +115,16 @@ class App extends Component {
             showCreateAccount = <CreateAccount/>;
           } else {
             if (this.state.actualSection === 'Your Shopping Cart')  {
-              console.log(this.state.nameActualGame);
-              showShoppingCart= <ShippingCart price={this.state.priceActualGame} gamename={this.state.nameActualGame}/>;
+              showShoppingCart= <ShippingCart 
+                price={this.state.priceActualGame} 
+                updateit={this.updateAmout} 
+                gamename={this.state.nameActualGame} 
+                radio={this.state.radioValue} 
+                onradioc={this.onRadioChange}
+                realtotal={this.state.actualTotal}
+                />;
             } else
-              gameDescription = <GameDescription id={this.state.idGame} buyit={this.clickAndBuyIt}/>
+              gameDescription = <GameDescription id={this.state.idGame} buyit={this.clickAndBuyIt} />
           }
         }
       }

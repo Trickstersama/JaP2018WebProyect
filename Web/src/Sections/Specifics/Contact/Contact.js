@@ -59,7 +59,7 @@ const createAccount = () =>   {
               <br/>
               <br/>
               <div id='submitButton'>
-                      <input style = {styleSubmit} className='glow' type="submit"/>
+                    <input style = {styleSubmit} className='glow' type="submit"/>
               </div>
           </div>
         <br/>
