@@ -1,90 +1,112 @@
 [
     {
-      "id": 101,
+      "id": 1,
       "Title": "Fallout 4",
       "Developer": "Bethesda Game Studios",
       "Release Date": "10 Nov, 2015",
       "Rating": 8,
-      "Tags":["Open World","Post-Apocaliptic", "RPG", "Singleplayer", "Survival"]
+      "Price": 40,
+      "Tags":["Open World","Post-Apocaliptic", "RPG", "Singleplayer", "Survival"],
+      "Description": "Bethesda Game Studios, the award-winning creators of Fallout 3 and The Elder Scrolls V: Skyrim, welcome you to the world of Fallout 4 – their most ambitious game ever, and the next generation of open-world gaming."
     },
      {
-      "id": 102,
+      "id": 2,
       "Title": "Darkwood",
       "Developer": "Acid Wizard Studios",
       "Release Date": "17 Aug, 2017",
       "Rating": 10,
-      "Tags": ["Indie","Post-Apocaliptic", "Horror", "Singleplayer", "Survival"]
+      "Price": 20,
+      "Tags": ["Indie","Post-Apocaliptic", "Horror", "Singleplayer", "Survival"],
+      "Description": "Darkwood - a new perspective on survival horror. Scavenge and explore a rich, ever-changing free-roam world by day, then hunker down in your hideout and pray for the morning light."
     },
      {
-      "id": 103,
+      "id": 3,
       "Title": "Warframe",
       "Developer": "Digital Extremes",
       "Release Date": "25 Mar, 2013",
       "Rating": 9,
-      "Tags": ["Free To Play","Action", "Multiplayer", "Co-op", "Shooter"]
+      "Price": 0,
+      "Tags": ["Free To Play","Action", "Multiplayer", "Co-op", "Shooter"],
+      "Description": ""
     },
     {
-      "id": 104,
+      "id": 4,
       "Title": "Path of Exile",
       "Developer": "Grinding Gear Games",
       "Release Date": "23 Oct, 2013",
       "Rating": 10,
-      "Tags": ["Free To Play","Action", "Multiplayer", "Co-op", "RPG", "Indie"]
+      "Price": 0,
+      "Tags": ["Free To Play","Action", "Multiplayer", "Co-op", "RPG", "Indie"],
+      "Description": ""
     },
     {
-      "id": 105,
+      "id": 5,
       "Title": "Dota 2",
       "Developer": "Valve",
       "Release Date": "9 Jul, 2013",
       "Rating": 6,
-      "Tags": ["Free To Play","MOBA", "Multiplayer", "Strategy", "Action", "Team-Based"]
+      "Price": 0,
+      "Tags": ["Free To Play","MOBA", "Multiplayer", "Strategy", "Action", "Team-Based"],
+      "Description": ""
     },
     {
-      "id": 106,
+      "id": 6,
       "Title": "Terraria",
       "Developer": "Re-Logic",
       "Release Date": "16 May, 2011",
       "Rating": 9,
-      "Tags": ["Sandbox","Adventure", "Multiplayer", "2D", "Action", "Indie"]
+      "Price": 20,
+      "Tags": ["Sandbox","Adventure", "Multiplayer", "2D", "Action", "Indie"],
+      "Description": ""
     },
     {
-      "id": 107,
+      "id": 7,
       "Title": "Feel The Snow",
       "Developer": "Owlet",
       "Release Date": "14 Oct, 2016",
       "Rating": 8,
-      "Tags": ["Sandbox","Adventure", "Multiplayer", "2D", "Cute", "Indie"]
+      "Price": 15,
+      "Tags": ["Sandbox","Adventure", "Multiplayer", "2D", "Cute", "Indie"],
+      "Description": ""
     },
     {
-      "id": 108,
+      "id": 8,
       "Title": "Fallout 3",
       "Developer": "Bethesda",
       "Release Date": "13 Oct, 2009",
       "Rating": 9,
-      "Tags": ["Open-World","Adventure", "RPG", "Singleplayer", "FPS", "Post-Apocaliptic"]
+      "Price": 15,
+      "Tags": ["Open-World","Adventure", "RPG", "Singleplayer", "FPS", "Post-Apocaliptic"],
+      "Description": ""
     },
     {
-      "id": 109,
+      "id": 9,
       "Title": "Paladins",
       "Developer": "Evil Mojo Games",
       "Release Date": "8 May, 2018",
       "Rating": 7,
-      "Tags": ["Free to play","Multiplayer", "FPS", "Team-Based", "Action"]
+      "Price": 0,
+      "Tags": ["Free to play","Multiplayer", "FPS", "Team-Based", "Action"],
+      "Description": ""
     },
     {
-      "id": 110,
+      "id": 10,
       "Title": "The forest",
       "Developer": "Endnight Games Ltd",
       "Release Date": "30 Apr, 2018",
       "Rating": 9,
-      "Tags": ["Survival","Multiplayer", "Horror", "Open-World", "Building"]
+      "Price": 20,
+      "Tags": ["Survival","Multiplayer", "Horror", "Open-World", "Building"],
+      "Description": ""
     },
     {
-      "id": 111,
+      "id": 11,
       "Title": "Stardew Valley",
       "Developer": "ConcernedApe",
       "Release Date": "26 Feb, 2016",
       "Rating": 10,
-      "Tags": ["RPG","Multiplayer", "Simulation", "Agriculture", "Building"]
+      "Price": 20,
+      "Tags": ["RPG","Multiplayer", "Simulation", "Agriculture", "Building"],
+      "Description": ""
     }
 ]

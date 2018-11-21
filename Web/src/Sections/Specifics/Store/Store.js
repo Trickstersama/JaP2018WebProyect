@@ -1,8 +1,6 @@
 import React from 'react';
+import StoreCarousel from './StoreComponents/StoreCarousel'
 
-const styleText={
-    color: "white"
-};
 
 const styleContainer = {
     gridColumnStart:'2',
@@ -10,11 +8,14 @@ const styleContainer = {
 };
 
 
+const store = (props) => { 
 
-const store = () => {
     return (
         <div style={styleContainer}>
-            <p style={styleText}>hola k ase</p>
+            <StoreCarousel showInfoGame={props.showInfoGame} name='Trending'/>;
+            <StoreCarousel showInfoGame={props.showInfoGame} name='Special Offers'/>;
+            <StoreCarousel showInfoGame={props.showInfoGame} name='Tag: Multiplayer'/>;
+            
         </div>
     )
 };
