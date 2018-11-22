@@ -116,7 +116,7 @@ class App extends Component {
       showStore = <Store showInfoGame={this.clickInfoGame} />;
     } else{
       if (this.state.actualSection === 'Browse Games')  {
-        showBrowseGames = <BrowseGames/>;
+        showBrowseGames = <BrowseGames buyit={this.clickAndBuyIt}/>;
       } else {
         if (this.state.actualSection === 'Contact') {
           showContact = <Contact/>;

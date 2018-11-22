@@ -33,14 +33,14 @@ const descriptionBoxes = (props) =>  {
 
     const titleText = gamesJson[id].Title;
     const titleStyle ={
-        fontSize: '60px',
+        fontSize: '40px',
         marginTop: '15px',
         marginBottom: '15px'
     }
 
     const priceText = (gamesJson[id].Price === 0) ? 'FREE !!!': '$ ' + gamesJson[id].Price + '.00';
     const priceStyle = {
-        fontSize: '45px',
+        fontSize: '30px',
         textShadow: '2px 2px 0px rgba(188,210,244,0.5)'
     }
 
@@ -51,12 +51,12 @@ const descriptionBoxes = (props) =>  {
 
     const ratingText = 'User Rating : ' + gamesJson[id].Rating + '/10';
     const ratingStyle = {
-        fontSize: '50px'
+        fontSize: '35px'
     }
 
     const descriptionText =  gamesJson[id].Description ;
     const descriptionStyle = {
-        fontSize: '20px'
+        fontSize: '13px'
     }
 
     const devsText = "Developer : " + gamesJson[id].Developer;
