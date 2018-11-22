@@ -1,0 +1,21 @@
+Documento descriptivo de las etapas del desarrollo y sus consecuentes eventos.
+
+-Primera etapa del curso (centrado en HTML);
+	La mayor complicacion de esta tapa fue el diseño. La estructuracion en cuanto a donde como y cuando se tenia que ver cada elemento. 
+Sobre todo en mi inexperiencia con respecto a este tema. Yo cuento con experiencia previa y gusto por programar, lo cual hizo la parte artistica un tanto mas pesada de lo que deberia.
+Dado a que en esta entrega se conto con muchisimo tiempo, use la metodologia de ensayo y error. Se descartaron del diseño principal secciones que mas adelante causarian problemas por ser demasiado dificil su implementacion.
+Uno de los problemas de esta entrega fue el trabajo en equipo, mi compañero no coopero y practicamente no ayudo en absoluto.
+
+-Segunda etapa del curso (centrado en CSS):
+	Si bien en clase se tocaron temas de CSS, en esta instancia habian varios recursos para utilizar librerias que facilitaran el proceso. Pero de todas formas decidi usar CSS sin librerias, para centrarme en la practica y en mis debilidades con respecto al tema.
+Debido a la disolucion del equipo anterior, se me fue integrado a otro. Pero los resultados fueron iguales, cero cooperacion, y fui el encargado de la gran mayoria de lo que se hizo. Esto sin lugar a dudas causo el mayor problema: el tiempo. 
+Lo que fue planeado para 3 personas termino siendo implementado por 1. CSS requiere de muchisimo mas tiempo y practica que la entrega anterior, por lo que se llego apenas a lo que se pedia. 
+Hasta este momento en el curso no hubieron problemas tecnicos en cuanto a lo dado en clase. La etapa creativa no fue muy abierta, ya que me tuve que atener a un Layout existente previo a mi llegada al grupo.
+Se disolvio de nuevo el equipo.
+
+-Tercera etapa del curso (centrado en JS):
+	Lo dado en el curso fue bastante basico en comparacion al espectro de JS. Al estar solo de nuevo tuve libertad para utilizar los recursos que me parecian adecuados a la situacion. 
+El mayor problema fue el tiempo, la fecha de entrega fue muy cercana en comparacion a las anteriores, con lo cual se dieron temas muy importantes casi una semana antes de la fecha limite.
+Entre estos temas el que llamo mi atencion fue el concepto de SPA. Todo esto me llevo a React, una libreria que permite comportamientos muy utiles en cuanto al desarrollo. 
+Mi tiempo restante se distribuyo entre aprender React (3 dias), diseñar la pagina (1 dia)  y poner a prueba lo aprendido para entregar en el plazo debido (3 dias).
+La idea detras de usar esta herramienta fue crear algo que tuviera cierta aplicacion y me pusiera a prueba. Lo complicado fue no tener a quien preguntarle como utilizarla.
