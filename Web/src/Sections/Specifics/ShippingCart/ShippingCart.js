@@ -56,7 +56,14 @@ const shippingCart = (props) => {
     if (props.price === 0)  {
         download = downloadP
     } else {
-        table=<TableCart/>
+        table=<TableCart
+            price = {props.price}
+            realtotal= {props.realtotal}
+            copies = {props.copies}
+            radioperc = {props.radioperc}
+
+
+            />
         form =
             <div className='glow'>
                 <p>Game : {props.gamename}</p>
@@ -69,19 +76,19 @@ const shippingCart = (props) => {
                 <div className='radioBuyForm'>
                     <div>
                         <input  onChange={(event) => props.onradioc(event,"Common",  0.5)} type="radio" id="Common" name="delivery" value="Common"
-                                checked = {props.radio === "Common"}/>
+                                checked = {(props.radio === "Common")}/>
                         <label htmlFor="Common">Common ( 0.5% )</label>
                     </div>
 
                     <div>
                         <input  onChange={(event) => props.onradioc(event, "Special", 2)} type="radio" id="Special" name="delivery" value="Special" 
-                            checked = {props.radio === "Special"}/>
+                            checked = {(props.radio === "Special")}/>
                         <label htmlFor="Special">Special ( 2.0% )</label>
                     </div>
 
                     <div>
                         <input  onChange={(event) => props.onradioc(event,"Premium", 5)} type="radio" id="Premium" name="delivery" value="Premium" 
-                            checked = {props.radio === "Premium"}/>
+                            checked = {(props.radio === "Premium")}/>
                         <label htmlFor="Premium">Premium ( 5.0% )</label>
                     </div>                  
                 </div>
@@ -98,8 +105,8 @@ const shippingCart = (props) => {
                 </div>
                
                 <div style={styleButton}>
-                    <p id='finalPrice'> Total : <span id='total' style={styleTotal}>$ {finalPrice} </span></p>
-                    <button style={styleSubmit}>Check Out</button>
+                    <p id='finalPrice'> Total : <span id='total' style={styleTotal}>$ {Math.round(finalPrice * 1.22)} </span></p>
+                    <button type="submit" style={styleSubmit}>Check Out</button>
                 </div>
             </div>;
 

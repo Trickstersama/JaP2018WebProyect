@@ -11,7 +11,7 @@ const styleContainer = {
 const store = (props) => { 
 
     return (
-        <div style={styleContainer}>
+        <div  style={styleContainer}>
             <StoreCarousel showInfoGame={props.showInfoGame} name='Trending'/>;
             <StoreCarousel showInfoGame={props.showInfoGame} name='Special Offers'/>;
             <StoreCarousel showInfoGame={props.showInfoGame} name='Tag: Multiplayer'/>;

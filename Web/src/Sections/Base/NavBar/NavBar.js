@@ -12,7 +12,7 @@ const navBar = (props) => {
         <div className="sidenav">
             <BarLogo pageName='Red Tree Games'/>
             <BarInput/>
-            <SideBarButton name='Store' sepBar='1' buttonHandler={props.buttonHandler}/>
+            <SideBarButton  name='Store' sepBar='1' buttonHandler={props.buttonHandler}/>
             <br/>
             <SideBarButton name='Browse Games'sepBar='1' buttonHandler={props.buttonHandler}/>
             <br/>

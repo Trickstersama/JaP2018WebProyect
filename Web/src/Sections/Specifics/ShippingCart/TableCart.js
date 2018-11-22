@@ -2,7 +2,7 @@ import React from 'react'
 
 const tableCart = (props) => {
     return(
-    <div id='calculatorTable'>
+    <div className='calculatorTable'>
         <table>
             <tbody>
                 <tr>
@@ -13,22 +13,22 @@ const tableCart = (props) => {
                 <tr>
                     <td>IVA</td>
                     <td>22%</td>
-                    <td>$100</td>
+                    <td>{props.realtotal * .22}</td>
                 </tr>
                 <tr>
                     <td>Delivery</td>
-                    <td>{props}</td>
-                    <td>{props}</td>
+                    <td>{props.radioperc}%</td>
+                    <td>{(props.copies * props.price)  * (props.radioperc / 100)}</td>
                 </tr>
                 <tr>
                     <td>Game</td>
                     <td>-</td>
-                    <td>{props}</td>
+                    <td> ${(props.price) * props.copies}</td>
                 </tr>
                 <tr>
                     <td>Total</td>
                     <td>-</td>
-                    <td>$300</td>
+                    <td>${Math.round(props.realtotal *1.22)}</td>
                 </tr>
             </tbody>
             

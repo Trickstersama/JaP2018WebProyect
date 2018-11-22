@@ -15,7 +15,7 @@ import ShippingCart from './Sections/Specifics/ShippingCart/ShippingCart'
 class App extends Component {
   constructor() {
     super(...arguments)
-    this.numGame = 222;
+    this.resetValuesGame = this.resetValuesGame.bind(this)
 /*     this.priceActualGame = 0;
     this.nameActualGame = ''; */
   }
@@ -60,10 +60,11 @@ class App extends Component {
 
   onRadioChange = (event, value, percent) =>  {
     const radVal = value;
+    const valPercent = percent;
     this.setState({
-      radioValuePercent: percent,
+      radioValuePercent: valPercent,
       radioValue: radVal,
-      actualTotal: this.state.priceActualGame * this.state.copiesAmount * ((this.state.radioValuePercent/100) + 1)
+      actualTotal: this.state.priceActualGame * this.state.copiesAmount * ((valPercent/100) + 1)
     })
     console.log(this.state.actualTotal)
   }
@@ -93,8 +94,15 @@ class App extends Component {
  
   };
 
-  render() {
+  resetValuesGame ()  {
+    console.log('reiniciando');
+    this.setState({
+      radioValue: "Common",
+      radioValuePercent: 0.5,
+    });
+  }
 
+  render() {
     let gameDescription = null;
     let showStore = null;
     let showCreateAccount = null;
@@ -102,8 +110,10 @@ class App extends Component {
     let showBrowseGames = null;
     let showShoppingCart = null;
 
+
     if(this.state.actualSection === 'Store')  {
-      showStore = <Store showInfoGame={this.clickInfoGame}/>;
+    /*   {this.resetValuesGame()} */
+      showStore = <Store showInfoGame={this.clickInfoGame} />;
     } else{
       if (this.state.actualSection === 'Browse Games')  {
         showBrowseGames = <BrowseGames/>;
@@ -122,6 +132,9 @@ class App extends Component {
                 radio={this.state.radioValue} 
                 onradioc={this.onRadioChange}
                 realtotal={this.state.actualTotal}
+                copies ={this.state.copiesAmount}
+                radioperc = {this.state.radioValuePercent}
+                
                 />;
             } else
               gameDescription = <GameDescription id={this.state.idGame} buyit={this.clickAndBuyIt} />
@@ -133,7 +146,7 @@ class App extends Component {
     return (
       <div className="App">
         <div id='navBarSection'>
-          <NavBar section={this.state.pageSection} buttonHandler={this.clickNavButtonHandler}/>
+          <NavBar  section={this.state.pageSection} buttonHandler={this.clickNavButtonHandler}/>
         </div>
 
         <div style={this.styleGrid} id='specificContentSection'>
